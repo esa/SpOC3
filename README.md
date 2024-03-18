@@ -72,16 +72,45 @@ space mission. Starting from *1 April 2024* you have **three** months
 to tackle these challenges to secure a spot on the
 leaderboard.
 
-
-### Problem 1: Torso Decompositions
-
-### Problem 2: Interferometric Mission
-
-### Problem 3: Programmable Cubes
-
 **Detailed technical descriptions for the three challenges to be
 solved and the scoring scheme will be made available on the [Optimise
 platform](https://optimise.esa.int) from the same date.** 
+
+
+### Problem 1: Torso Decompositions
+
+<image src="images/torso.png" align="right"  alt="Torso Decomposition" width="250" height="250"/>
+
+
+### Problem 2: Interferometric Mission
+
+<image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="250" height="250"/>
+
+### Problem 3: Programmable Cubes
+
+<image src="images/cubes.png" align="right"  alt="Programmable Cubes" width="250" height="250"/>
+
+Welcome to the OASIS project, one of humanity's flagship research
+projects for in-space assembly of megastructures! [Even way back in
+the 21st century](https://www.media.mit.edu/projects/tesserae-self-assembling-space-architecture/overview/),
+scientists envisioned ships and habitats to self-assemble in space
+from small components that can be easily deployed from Earth. Now this
+dream is finally getting closer with the programmable cubes
+technology: small cubes of different designs capable of forming
+complex and fully functional structures when interconnected.
+
+The missing building block for this technology is an efficient and
+scalable algorithm for assembling structures. To solve this, we need
+the help of every student, scientist and engineer out there interested
+in contributing to the OASIS project! To test your algorithms, we
+generated prototype scenarios where you have to assemble two
+historical spacecraft from the early days of human space exploration:
+**The International Space Station (ISS)** and the **James Webb Space
+Telescope (JWST)**. For final evaluation, we also give you a single
+assembly scenario of the planned multi-generational interstellar ship
+**Enterprise**. If successful, your algorithm might give us the
+missing puzzle piece for constructing this massive ship in orbit and
+boldly go where no one has gone before!
 
 ### Guidelines and Rules
 
