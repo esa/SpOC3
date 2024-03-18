@@ -81,10 +81,25 @@ platform](https://optimise.esa.int) from the same date.**
 
 <image src="images/torso.png" align="right"  alt="Torso Decomposition" width="250" height="250"/>
 
+Before we can start designing astonishing megastructures in the GRAIL
+or OASIS project, we need to arrange the building blocks
+suitably. These blocks, called nodes or vertices, are bound to
+specific pairwise interactions. Some blocks clearly belong to the same
+part of the megastructure, while others share no interaction. For an
+effective and energy-efficient structure setup, it is critical to
+identify an ordering of the nodes that indicates parts of the structure that can be
+assembled concurrently, and that encodes a global blueprint for recursively
+constructing the megastructure. At the Graph Reduction Algorithm for
+Planetary-scale Hyper-optimisation (GRAPH) meta-project, we develop
+the toolkit for exactly this task -- and we hope that engaged scientists and
+engineers like you will help us to complete the project in time!
+
 
 ### Problem 2: Interferometric Mission
 
 <image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="250" height="250"/>
+
+
 
 ### Problem 3: Programmable Cubes
 
