@@ -99,6 +99,21 @@ engineers like you will help us to complete the project in time!
 
 <image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="250" height="250"/>
 
+Welcome to the GRAIl project, where our sights are set on one vital
+mission: high-resolution interferometric measurements. These
+measurements are crucial to map distortions in space-time in order to
+effectively navigate through warps and folds. Without their high
+precision, spacecraft risk being lost in the fabric of space-time,
+never to return. Scientists figured out that a constellation of
+satellites can achieve the needed precision by forming a large
+synthetic aperture. Unbeknownst to them, there is an intricate hurdle
+that they still need to overcome: how to arrange the satellites such
+that they maintain a useful configuration over several orbits? It
+turns out that the configuration of satellites which results in the
+highest resolution is also the one which best follows the mathematical
+structure of Golomb patterns. Synchronizing these orbits and
+coordinating observations requires the collective expertise of
+scientists, engineers, and innovators like you!
 
 
 ### Problem 3: Programmable Cubes
