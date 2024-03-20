@@ -181,7 +181,7 @@ according to the objective of the problem. The top ten ranks on the
 leaderboard of the easy instance get $e_i=10,9,8,\dots,1$ points, similarly
 $m_i=\frac{4}{3}10,\frac{4}{3}9,\dots,\frac{4}{3}$ points for the top
 ten teams on the medium instance, and 
-$h_i=(\frac{4}{3})^2 10,(\frac{8}{3})^2 9,\dots,(\frac{4}{3})^2$ points for the hard
+$h_i=(\frac{4}{3})^2 10,(\frac{4}{3})^2 9,\dots,(\frac{4}{3})^2$ points for the hard
 instance. The score $s_i$ for the problem then simply is the sum $s_i=e_i+m_i+h_i$.
 
 We wish all participants the best of luck and are excited to see what you accomplish!
