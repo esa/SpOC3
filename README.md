@@ -171,8 +171,7 @@ This year, SpOC implements a 2-out-of-3 scoring scheme that, simply
 put, means that for the over all competition only two 
 problems are taken into account. In detail, you will obtain a *local score*
 $s_i$ for each of the three problems computed via the the rules below,
-then your *global score* is $g=\max\{ s_1+s_2, s_1+s_3, s_2+s_3
-\}$. The global score defines your place on the overall SpOC
+then your *global score* is $g=\max(s_1+s_2, s_1+s_3, s_2+s_3)$. The global score defines your place on the overall SpOC
 leaderboard and, overall, the winners of SpOC 3. 
 
 Each problem $i\{1,2,3\}$ has *three instances* (one easy, medium, and
