@@ -68,12 +68,12 @@ interstellar explorers!
 ## Competition Structure
 
 SpOC 3.0 contains three distinct problems centered around a futuristic
-space mission. Starting from *1 April 2024* you have **three** months
+space mission. Starting from *1 April 2024 (AoE)* you have **three** months
 to tackle these challenges to secure a spot on the
 leaderboard.
 
 **Detailed technical descriptions for the three challenges to be
-solved and the scoring scheme will be made available on the [Optimise
+solved will be made available on the [Optimise
 platform](https://optimise.esa.int) from the same date.** 
 
 
@@ -172,7 +172,7 @@ put, means that for the over all competition only two
 challenges are taken into account. In detail, you will obtain a *local score*
 $s_i$ for each of the three challenges computed via the the rules below,
 then your *global score* is $g=\max(s_1+s_2, s_1+s_3, s_2+s_3)$. The global score defines your place on the overall SpOC
-leaderboard and, overall, the winners of SpOC 3. 
+leaderboard and the winners of SpOC 3. 
 
 Each challenge $i=1,2,3$ contains *three problems* (easy, medium, and
 hard). Every problem has its own leaderboard (visible on
