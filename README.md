@@ -174,14 +174,14 @@ $s_i$ for each of the three problems computed via the the rules below,
 then your *global score* is $g=\max(s_1+s_2, s_1+s_3, s_2+s_3)$. The global score defines your place on the overall SpOC
 leaderboard and, overall, the winners of SpOC 3. 
 
-Each problem $i\{1,2,3\}$ has *three instances* (one easy, medium, and
+Each problem $i=1,2,3$ has *three instances* (one easy, medium, and
 hard). Every instance has its own leaderboard (visible on
 [Optimise](https://optimise.esa.int/)) that ranks participants
 according to the objective of the problem. The top ten ranks on the
 leaderboard of the easy instance get $e_i=10,9,8,\dots,1$ points, similarly
 $m_i=\frac{4}{3}10,\frac{4}{3}9,\dots,\frac{4}{3}$ points for the top
 ten teams on the medium instance, and 
-$h_i=\frac{8}{3}10,\frac{8}{3}9,\dots,\frac{8}{3}$ points for the hard
+$h_i=(\frac{4}{3})^2 10,(\frac{8}{3})^2 9,\dots,(\frac{4}{3})^2$ points for the hard
 instance. The score $s_i$ for the problem then simply is the sum $s_i=e_i+m_i+h_i$.
 
 We wish all participants the best of luck and are excited to see what you accomplish!
