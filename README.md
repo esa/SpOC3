@@ -77,7 +77,7 @@ solved and the scoring scheme will be made available on the [Optimise
 platform](https://optimise.esa.int) from the same date.** 
 
 
-### Problem 1: Torso Decompositions
+### Challenge 1: Torso Decompositions
 
 <image src="images/torso.png" align="right"  alt="Torso Decomposition" width="300" height="250"/>
 
@@ -95,7 +95,7 @@ the toolkit for exactly this task -- and we hope that engaged scientists and
 engineers like you will help us to complete the project in time!
 
 
-### Problem 2: Interferometric Mission
+### Challenge 2: Interferometric Mission
 
 <image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="300" height="250"/>
 
@@ -116,7 +116,7 @@ coordinating observations requires the collective expertise of
 scientists, engineers, and innovators like you!
 
 
-### Problem 3: Programmable Cubes
+### Challenge 3: Programmable Cubes
 
 <image src="images/cubes.png" align="right"  alt="Programmable Cubes" width="300" height="250"/>
 
@@ -153,9 +153,9 @@ The competition will be hosted on the
   participate in SpOC.
 
 - Your objective is to propose and implement metaheuristic algorithms
-  to solve the proposed optimisation problems. 
+  to solve the proposed optimisation challenges. 
 - In order to validate your solutions, we will provide you with Python
-  validation code for each of the three problems. This code includes
+  validation code for each of the three challenges. This code includes
   problem definitions in the [Pygmo](https://esa.github.io/pygmo2/#)
   user-defined problem (UDP) format, examples of solutions, and
   visualisation tools. 
@@ -169,20 +169,20 @@ The competition will be hosted on the
 
 This year, SpOC implements a 2-out-of-3 scoring scheme that, simply
 put, means that for the over all competition only two 
-problems are taken into account. In detail, you will obtain a *local score*
-$s_i$ for each of the three problems computed via the the rules below,
+challenges are taken into account. In detail, you will obtain a *local score*
+$s_i$ for each of the three challenges computed via the the rules below,
 then your *global score* is $g=\max(s_1+s_2, s_1+s_3, s_2+s_3)$. The global score defines your place on the overall SpOC
 leaderboard and, overall, the winners of SpOC 3. 
 
-Each problem $i=1,2,3$ has *three instances* (one easy, medium, and
-hard). Every instance has its own leaderboard (visible on
+Each challenge $i=1,2,3$ contains *three problems* (easy, medium, and
+hard). Every problem has its own leaderboard (visible on
 [Optimise](https://optimise.esa.int/)) that ranks participants
-according to the objective of the problem. The top ten ranks on the
+according to the objective of the challenge. The top ten ranks on the
 leaderboard of the easy instance get $e_i=10,9,8,\dots,1$ points, similarly
 $m_i=\frac{4}{3}10,\frac{4}{3}9,\dots,\frac{4}{3}$ points for the top
-ten teams on the medium instance, and 
+ten teams on the medium problem, and 
 $h_i=(\frac{4}{3})^2 10,(\frac{4}{3})^2 9,\dots,(\frac{4}{3})^2$ points for the hard
-instance. The score $s_i$ for the problem then simply is the sum $s_i=e_i+m_i+h_i$.
+problem. The score $s_i$ for the challenge then simply is the sum $s_i=e_i+m_i+h_i$.
 
 We wish all participants the best of luck and are excited to see what you accomplish!
 
