@@ -168,7 +168,7 @@ The competition will be hosted on the
 ## Scoring and Winner Selection 
 
 This year, SpOC implements a 2-out-of-3 scoring scheme that, simply
-put, means that for the over all competition only two 
+put, means that for the overall competition only two 
 challenges are taken into account. In detail, you will obtain a *local score*
 $s_i$ for each of the three challenges computed via the the rules below,
 then your *global score* is $g=\max(s_1+s_2, s_1+s_3, s_2+s_3)$. The global score defines your place on the overall SpOC
