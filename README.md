@@ -69,8 +69,8 @@ interstellar explorers!
 
 SpOC 3.0 contains three distinct problems centered around a futuristic
 space mission. Starting from **1 April 2024, End of Day, Anywhere on Earth (AoE)** you have **three** months
-to tackle these challenges to secure a spot on the
-leaderboard.
+to tackle these challenges to secure a spot on the leaderboard, i.e., until
+**30 June 2024, End of Day, Anywhere on Earth (AoE)**.
 
 **Detailed technical descriptions for the three challenges to be
 solved will be made available on the [Optimise
@@ -196,7 +196,7 @@ of Day, Anywhere on Earth (AoE):**
 <Image src="http://i.countdownmail.com/36faif.gif" border="0" alt="countdownmail.com" align="center"/>
 
 **NOTE**: The submission portal remains open after **30 June
-2024**. Submissions received after that date will not be taken into
+2024, End of Day, Anywhere on Earth (AoE)**. Submissions received after that date will not be taken into
 consideration for the competition, but still appear on the
 leaderboard. 
 
