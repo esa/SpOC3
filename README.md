@@ -1,5 +1,3 @@
-<Image src="http://i.countdownmail.com/36faif.gif" border="0" alt="countdownmail.com", align="center"/>
-
 For the third time, the European Space Agency's Advanced Concepts Team
 (ACT) presents in cooperation with the [The Genetic and Evolutionary
 Computation Conference
@@ -198,4 +196,5 @@ consideration for the competition, but still appear on the
 leaderboard. 
 
 
+<Image src="http://i.countdownmail.com/36faif.gif" border="0" alt="countdownmail.com" align="center"/>
 
