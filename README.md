@@ -190,11 +190,13 @@ We wish all participants the best of luck and are excited to see what you accomp
 
 <Image src="images/timeline.png" alt="timeline" />
 
+The Space Optimization Competition starts at the **first of April, End
+of Day, Anywhere on Earth (AoE):** 
+
+<Image src="http://i.countdownmail.com/36faif.gif" border="0" alt="countdownmail.com" align="center"/>
+
 **NOTE**: The submission portal remains open after **30 June
 2024**. Submissions received after that date will not be taken into
 consideration for the competition, but still appear on the
 leaderboard. 
-
-
-<Image src="http://i.countdownmail.com/36faif.gif" border="0" alt="countdownmail.com" align="center"/>
 
