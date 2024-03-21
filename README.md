@@ -1,3 +1,6 @@
+<img src="http://i.countdownmail.com/36faif.gif" border="0"
+alt="countdownmail.com", align="center"/>
+
 For the third time, the European Space Agency's Advanced Concepts Team
 (ACT) presents in cooperation with the [The Genetic and Evolutionary
 Computation Conference
@@ -68,7 +71,7 @@ interstellar explorers!
 ## Competition Structure
 
 SpOC 3.0 contains three distinct problems centered around a futuristic
-space mission. Starting from *1 April 2024 (AoE)* you have **three** months
+space mission. Starting from **1 April 2024, End of Day, Anywhere on Earth (AoE)** you have **three** months
 to tackle these challenges to secure a spot on the
 leaderboard.
 
