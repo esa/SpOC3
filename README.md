@@ -79,7 +79,7 @@ platform](https://optimise.esa.int) from the same date.**
 
 ### Challenge 1: Torso Decompositions
 
-<image src="images/torso.png" align="right"  alt="Torso Decomposition" width="300" height="250"/>
+<image src="images/torso.png" align="right"  alt="Torso Decomposition" width="300" height="200"/>
 
 Before we can start designing astonishing megastructures in the GRAIL
 or OASIS project, we need to arrange the building blocks
@@ -97,7 +97,7 @@ engineers like you will help us to complete the project in time!
 
 ### Challenge 2: Interferometric Mission
 
-<image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="300" height="250"/>
+<image src="images/golomb.png" align="right"  alt="Interferometric Mission" width="300" height="200"/>
 
 Welcome to the GRAIl project, where our sights are set on one vital
 mission: high-resolution interferometric measurements. These
@@ -118,7 +118,7 @@ scientists, engineers, and innovators like you!
 
 ### Challenge 3: Programmable Cubes
 
-<image src="images/cubes.png" align="right"  alt="Programmable Cubes" width="300" height="250"/>
+<image src="images/cubes.png" align="right"  alt="Programmable Cubes" width="300" height="200"/>
 
 Welcome to the OASIS project, one of humanity's flagship research
 projects for in-space assembly of megastructures! [Even way back in
