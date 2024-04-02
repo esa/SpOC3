@@ -1,0 +1,9 @@
+{
+"path": "data/ISS",
+"plot_dim": 20,
+"max_cmds": 6000,
+"num_cubes": 148,
+"num_cube_types": 3,
+"fitness_offset": 0.2337837837837838,
+"colours": ["midnightblue", "darkorange", "snow"]
+}

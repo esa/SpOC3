@@ -1,0 +1,18 @@
+{
+"path": "data/Enterprise",
+"plot_dim": 50,
+"max_cmds": 100000, 
+"num_cubes": 1472,
+"num_cube_types": 10,
+"fitness_offset": 0.3054347826086956,
+"colours": ["lightgray",
+            "limegreen",
+            "gold",
+            "lightyellow",
+            "snow",
+            "darkorange",
+            "firebrick",
+            "royalblue",
+            "k",
+            "khaki"]
+}
