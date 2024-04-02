@@ -43,7 +43,7 @@ would be presented as:
 4 7
 ```
 
-It will be granted that the graph is *connected* and that the used node names are consecutive, i.e., the vertex set is $V(G)=\{0,\dots,n-1\}$ and $n$ is the largest number appearing in any line. The three graphs for the three problems can be found here [easy](https://api.optimize.esa.int/data/spoc3/torso/easy.gr), 
+It will be granted that the graph is *connected* and that the used node names are consecutive, i.e., the vertex set is $V(G)=\{0,\dots,n-1\}$ and $n-1$ is the largest number appearing in any line. The three graphs for the three problems can be found here [easy](https://api.optimize.esa.int/data/spoc3/torso/easy.gr), 
 [medium](https://api.optimize.esa.int/data/spoc3/torso/medium.gr), and
 [hard](https://api.optimize.esa.int/data/spoc3/torso/hard.gr).
 
