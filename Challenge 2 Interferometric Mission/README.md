@@ -43,7 +43,7 @@ Relative positions of $-1$ or $1$ correspond to the edge of the grid where the b
 
 ### Objective
 
-The objective to maximize of this problem is computed as follows:
+The objective to minimize of this problem is computed as follows:
 
 $f = -\underset{i\in\mathcal{I}}{\max} \underset{s\in\mathcal{S}}{\sum} f_{i,s}$
 
