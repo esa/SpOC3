@@ -104,7 +104,7 @@ vectors) which should approximate the Pareto frontier of the
 problem. The quality of your approximated Pareto frontier will then be
 assessed by the [hypervolume indicator](https://esa.github.io/pygmo2/tutorials/hypervolume.html). To ensure quick evaluation, we guarantee that the width of the whole permutation (not only the torso) is always *at most 500*, and we will score worse solution as if they would have a width of 501. 
 
-##Submitting
+## Submitting
 
 Your solution is allowed to contain up to **20 decision vectors** $x_1,x_2,\dots,x_{20}$. To submit a solution,  prepare a simple text / JSON file with the following content:
 
