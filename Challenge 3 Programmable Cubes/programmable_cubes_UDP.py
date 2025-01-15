@@ -251,20 +251,26 @@ def get_surrounding_cubes_limited(target_cube_position, all_cube_positions, subs
     return neighbours, surrounding
 
 @njit(cache=True)
-def merge_surrounding_fields(surrounding, target_cube):
+def merge_surrounding_fields(surrounding, target_cube, displacement, all_cube_positions):
     '''
     Function merging the surroundings of all surrounding cubes of a target cube.
     Basically creates an "extended surrounding" for the target cube, taking into the account surroundings of the surrounding.
 
+    Also accounts for the surroundings of the displaced target cube.
+    This is relevant to correctly track cubes that are not in the surroundings of the target cube surroundings.
+
     Args:
         surrounding: surrounding of all cubes in the ensemble.
         target_cube: target cube.
+        displacement: the displacement of the target cube to consider.
+        all_cube_positions: array containing all cube positions.
     Returns:
         res: list of cube IDs making up the extended surrounding of the target_cube.
     '''
     res = []
     for surr in surrounding[target_cube]:
         res.extend(list(surrounding[surr]))
+    res.extend(get_surrounding_cubes(all_cube_positions[target_cube] + displacement, all_cube_positions)[1])
     res = np.array(res)
     res = np.unique(res)
     return res
@@ -505,9 +511,10 @@ class ProgrammableCubes:
                 # The move is legal! I am so exciting, and I just can't hide it!
                 ## UPDATE THE ENSEMBLE
                 # Get smaller subset of ensemble from merging immediate surroundings (to save time)
-                extended_surroundings = merge_surrounding_fields(self.cube_surroundings, cube_to_move)
+                displacement = self.moveset.displacements[rot_axis*self.moveset.number_moves+which]
+                extended_surroundings = merge_surrounding_fields(self.cube_surroundings, cube_to_move, np.asarray(displacement), self.cube_position)
                 # Update position
-                self.cube_position[cube_to_move] += self.moveset.displacements[rot_axis*self.moveset.number_moves+which] 
+                self.cube_position[cube_to_move] += displacement
                 # find new surroundings of cube using the limited view (used to speed up calculation and avoid operations on the whole cube ensemble)
                 new_neighbouring_cubes, new_surrounding_cubes = get_surrounding_cubes_limited(self.cube_position[cube_to_move], self.cube_position, extended_surroundings)
                 
