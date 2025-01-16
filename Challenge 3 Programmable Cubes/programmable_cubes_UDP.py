@@ -1,5 +1,5 @@
 # Programmable Cubes challenge
-# GECCO 2024 Space Optimisation Competition (SPoC)
+# GECCO 2024 Space Optimisation Competition (SpOC)
 
 from numba import njit
 import numpy as np
