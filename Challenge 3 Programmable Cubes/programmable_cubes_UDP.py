@@ -235,45 +235,6 @@ def get_surrounding_cubes(target_cube_position, all_cube_positions):
     surrounding = np.where((cube_distances>0)*(cube_distances<3.5))[0]
     return neighbours, surrounding
 
-@njit(cache=True)
-def get_surrounding_cubes_limited(target_cube_position, all_cube_positions, subselection):
-    '''
-    Same as 'get_surrounding_cubes', but the surrounding/neighbours is determined from a sub-selection of the cube ensemble.
-
-    Args:
-        subselection: IDs of cubes to include when calculating the surrounding of the target cube.
-    '''
-    cube_distances = get_distance_between_vectors(target_cube_position, all_cube_positions[subselection])
-    found_surrounding_IDs = np.where((cube_distances>0)*(cube_distances<3.5))[0]
-    found_neighbour_IDs = np.where(cube_distances == 1)[0]
-    neighbours = subselection[found_neighbour_IDs]
-    surrounding = subselection[found_surrounding_IDs]
-    return neighbours, surrounding
-
-@njit(cache=True)
-def merge_surrounding_fields(surrounding, target_cube, displacement, all_cube_positions):
-    '''
-    Function merging the surroundings of all surrounding cubes of a target cube.
-    Basically creates an "extended surrounding" for the target cube, taking into the account surroundings of the surrounding.
-
-    Also accounts for the surroundings of the displaced target cube.
-    This is relevant to correctly track cubes that are not in the surroundings of the target cube surroundings.
-
-    Args:
-        surrounding: surrounding of all cubes in the ensemble.
-        target_cube: target cube.
-        displacement: the displacement of the target cube to consider.
-        all_cube_positions: array containing all cube positions.
-    Returns:
-        res: list of cube IDs making up the extended surrounding of the target_cube.
-    '''
-    res = []
-    for surr in surrounding[target_cube]:
-        res.extend(list(surrounding[surr]))
-    res.extend(get_surrounding_cubes(all_cube_positions[target_cube] + displacement, all_cube_positions)[1])
-    res = np.array(res)
-    res = np.unique(res)
-    return res
 
 ############################################################################################################################################
 ##### FUNCTION TO CHECK CONNECTEDNESS OF CUBES
@@ -510,13 +471,10 @@ class ProgrammableCubes:
             if move_legal == True:
                 # The move is legal! I am so exciting, and I just can't hide it!
                 ## UPDATE THE ENSEMBLE
-                # Get smaller subset of ensemble from merging immediate surroundings (to save time)
-                displacement = self.moveset.displacements[rot_axis*self.moveset.number_moves+which]
-                extended_surroundings = merge_surrounding_fields(self.cube_surroundings, cube_to_move, np.asarray(displacement), self.cube_position)
                 # Update position
-                self.cube_position[cube_to_move] += displacement
+                self.cube_position[cube_to_move] += self.moveset.displacements[rot_axis*self.moveset.number_moves+which] 
                 # find new surroundings of cube using the limited view (used to speed up calculation and avoid operations on the whole cube ensemble)
-                new_neighbouring_cubes, new_surrounding_cubes = get_surrounding_cubes_limited(self.cube_position[cube_to_move], self.cube_position, extended_surroundings)
+                new_neighbouring_cubes, new_surrounding_cubes = get_surrounding_cubes(self.cube_position[cube_to_move], self.cube_position)
                 
                 # Update surroundings and neighbours
                 update_ensemble(cube_to_move, self.cube_surroundings, new_surrounding_cubes)
@@ -559,4 +517,4 @@ class ProgrammableCubes:
             self.apply_single_update_step(cube_to_move, move_command, step = i, verbose = verbose)
         return chrom_end
     
-############################################################################################################################################ 
+############################################################################################################################################
