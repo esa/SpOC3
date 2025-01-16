@@ -473,7 +473,7 @@ class ProgrammableCubes:
                 ## UPDATE THE ENSEMBLE
                 # Update position
                 self.cube_position[cube_to_move] += self.moveset.displacements[rot_axis*self.moveset.number_moves+which] 
-                # find new surroundings of cube using the limited view (used to speed up calculation and avoid operations on the whole cube ensemble)
+                # find new surroundings of cube
                 new_neighbouring_cubes, new_surrounding_cubes = get_surrounding_cubes(self.cube_position[cube_to_move], self.cube_position)
                 
                 # Update surroundings and neighbours
